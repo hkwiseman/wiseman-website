@@ -10,11 +10,8 @@ from pelicanconf import *
 SITEURL = 'https://kylewiseman.com'
 RELATIVE_URLS = True
 
-FEED_ALL_ATOM = 'feeds/all.atom.xml'
-CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
-
 DELETE_OUTPUT_DIRECTORY = True
-THEME = "~/Development/personal-website/wiseman-website/pelican-themes/pelican-themes/Papyrus"
+THEME = "~/Development/personal-website/wiseman-website/pelican-themes/Papyrus"
 
 # Following items are often useful when publishing
 
