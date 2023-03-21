@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="generator" content="Pelican" />
+    <meta name="description" content="Kyle Wiseman Blog Posts">
+    <title>Kyle Wiseman | Resume</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab|Ruda" />
+    <link rel="stylesheet" type="text/css" href="https://kylewiseman.com/theme/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="https://kylewiseman.com/theme/css/pygment.css" />
+    <link rel="shortcut icon" href="https://kylewiseman.com/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://kylewiseman.com/theme/css/stork.css">
+    <link rel="stylesheet" media="screen and (prefers-color-scheme: dark)"
+        href="https://kylewiseman.com/theme/css/stork-dark.css">
+</head>
+
+<body class="min-h-screen flex flex-col max-w-7xl lg:max-w-none text-zinc-800 bg-neutral-100 
+    dark:bg-neutral-900 dark:text-zinc-300 container mx-auto justify-center md:px-3 ">
+    <script>
+        if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia(
+                '(prefers-color-scheme: dark)').matches)) {
+            document.documentElement.classList.add('dark');
+        } else {
+            document.documentElement.classList.remove('dark')
+        }
+    </script>
+    <nav class="sm:flex sm:justify-between xl:ml-32 pl-4 items-center">
+        <div class="flex pt-4">
+            <h1 class="font-semibold text-2xl"><a href="https://kylewiseman.com/">Kyle Wiseman</a></h1>
+            <button id="theme-toggle" type="button" aria-label="Light|Dark"
+                class="text-zinc-700 dark:text-zinc-400 rounded-full focus:outline-none text-sm ml-2 p-1">
+                <svg id="theme-toggle-dark-icon" class="w-5 h-5 hidden" fill="currentColor" viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
+                </svg>
+                <svg id="theme-toggle-light-icon" class="w-5 h-5 hidden" fill="currentColor" viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"
+                        fill-rule="evenodd" clip-rule="evenodd"></path>
+                </svg>
+            </button>
+        </div>
+        <ul class="flex flex-wrap lg:mr-24 md:pt-0">
+            <li class="mr-4 pt-6"><a  href="https://kylewiseman.com/pages/about.html">About</a></li>
+            <li class="mr-4 pt-6"><a  href="https://kylewiseman.com/pages/portfolio.html">Portfolio</a></li>
+            <li class="mr-4 pt-6"><a  class="border-b-2 border-zinc-800 dark:border-zinc-300"
+ href="https://kylewiseman.com/pages/resume.html">Resume</a></li>
+            <li class="mr-4 pt-6"><a  href="https://kylewiseman.com/archives.html">Archive</a></li>
+            <li class="mr-4 pt-6"><a                     href="https://kylewiseman.com/categories.html">Categories</a></li>
+            <li class="mr-4 pt-6"><a  href="https://kylewiseman.com/tags.html">Tags</a></li>
+            <li class="mr-4 pt-6"><a  href="https://kylewiseman.com/search.html">Search</a></li>
+        </ul>
+    </nav>
+    <div class="flex-grow md:max-w-screen-md md:mx-auto md:w-3/4 px-4">
+        <nav class="text-zinc-800 dark:text-zinc-300 mt-12 pb-3 md:mt-16" aria-label="Breadcrumb">
+            <ul class="p-0 inline-flex">
+                <li class="flex items-center">
+                    <a href="https://kylewiseman.com/" class="text-zinc-800 dark:text-zinc-300 inline-flex items-center">
+                        <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z">
+                            </path>
+                        </svg>
+                        Home
+                    </a>
+                    <svg class="fill-current w-3 h-3 mr-2 ml-1" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 320 512">
+                        <path
+                            d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z" />
+                    </svg>
+                </li>
+                <li class="border-b-2 border-zinc-800 dark:border-zinc-300">
+                    Resume
+                </li>
+            </ul>
+        </nav>
+
+<main class="text-zinc-800 dark:text-zinc-300">
+    <div class="max-w-7xl container mx-auto my-2 text-zinc-800 dark:text-zinc-300  
+            prose lg:max-w-none prose-headings:text-zinc-800 prose-headings:dark:text-zinc-300 
+            prose-h1:text-3xl lg:prose-h1:text-3xl prose-headings:font-semibold 
+            prose-pre:bg-zinc-200 prose-pre:text-zinc-800
+            dark:prose-pre:bg-zinc-800 dark:prose-pre:text-zinc-200
+            prose-blockquote:text-zinc-800
+            dark:prose-blockquote:text-zinc-200
+            prose-a:text-slate-600 prose-a:font-normal
+            dark:prose-a:text-slate-400
+            dark:prose-strong:text-zinc-200 
+            dark:prose-code:text-zinc-200
+            dark:prose-code:bg-zinc-800
+            prose-code:bg-zinc-200
+            prose-code:font-light
+            prose-img:rounded-md
+            sm:text-left md:text-justify
+            ">
+        
+        <h2 id="harrison-kyle-wiseman">Harrison Kyle Wiseman</h2>
+<h3 id="software-engineer">Software Engineer</h3>
+<hr/>
+<h2 id="professional-profile_1">Professional Profile</h2>
+<p>Experienced developer skilled in designing creative solutions to unique problems and engineering positive user experiences. Collaborative, curious, and adept at quickly learning new technologies. Proficient in agile methodology and cloud resource management. Practical experience in full-stack development and DevOps with knowledge of multiple back-end and front-end languages, as well as professional experience in database management of Postgres and SQLite systems.</p>
+<hr/>
+<h2 id="work-experience">Work Experience</h2>
+<h3 id="software-engineer-abrigo-raleigh-nc-february-2022-present">Software Engineer - Abrigo | Raleigh, NC | February 2022 - Present</h3>
+<p>Member of the development team responsible for responding quickly and efficiently to urgent business development needs along with pioneering new development and refactoring of existing codebase. Duties include front-end development using Angular JS and Vue.js, back-end development using C#, writing unit tests, facilitating large-scale schema changes to existing database systems used by customers, and providing code review and support to other developers.</p>
+<ul>
+<li>Built new API services and front-end components within the Deal Summary product that allowed for new data views and analytics</li>
+<li>Assisted in designing and developing the API service for template creation and customization, as well as creating integration and unit testing for the entire service</li>
+<li>Responded quickly to urgent bug fixes and implemented security patches for various products</li>
+</ul>
+<h3 id="software-engineer-neo-ip-durham-nc-may-2021-february-2022">Software Engineer - Neo IP | Durham, NC | May 2021 - February 2022</h3>
+<p>Lead developer for internal software and commercial software product, Patent Forecast, a patent analytics platform that offers companies strategic intelligence within their industry. Responsible for the design and full-stack development of new features, DevOps support for the AWS servers and payment systems, database administration of Postgres RDS systems, and project management.</p>
+<ul>
+<li>Designed and developed new visualization features, search functionality, and background web crawling services</li>
+<li>Created new workflows using machine learning algorithms like Top2Vec and BERT to increase efficiency and accuracy of reports</li>
+<li>Integrated support for the EPO patent API for faster and more reliable data extraction</li>
+</ul>
+<h3 id="undergraduate-research-high-point-university-high-point-nc-january-2020-may-2021">Undergraduate Research - High Point University | High Point, NC | January 2020 - May 2021</h3>
+<p>Organized a research project in collaboration with faculty in the Computer Science department to increase privacy and security of metadata in network communications. Responsible for project management, creating quantitative tests, communicating findings through posters and presentations, and developing new software to add improvements to existing research.</p>
+<ul>
+<li>Developed a new patent-pending process to protect metadata for network communications of various types</li>
+<li>Founded the startup Salus Technology Inc. and won early funding in the HPU Pitch Competition and HPU Business Plan Competition</li>
+<li>Executed quantitative experiments on current research findings and presented results at the NCUR and High-PURCS conferences.</li>
+</ul>
+<hr/>
+<h2 id="education_1">Education</h2>
+<p>B.S. Computer Science High Point University | High Point, NC | August 2018-May 2021</p>
+<hr/>
+<h2 id="skills">Skills</h2>
+<ul>
+<li>Back-end languages: Python, Rust, C++, C#, and C</li>
+<li>Database: SQLite &amp; Postgres</li>
+<li>Creativity</li>
+<li>Front-end languages: HTML, Javascript, Vue.js, and CSS</li>
+<li>Problem solving</li>
+<li>Communication</li>
+<li>DevOps: CLI, Ansible, AWS, and Git</li>
+<li>Project management</li>
+<li>Versatility</li>
+</ul>
+        <!-- <div class="aspect-w-16 aspect-h-9 mx-auto"></div> CSS placeholder -->
+    </div>
+    <footer class="flex bg-zinc-200 dark:bg-zinc-700 mt-10 py-2 rounded-lg justify-center space-x-2 text-xs">
+        <ul>
+            <li class="bg-gray-900 p-1 text-white rounded-md">
+                <a target="_blank" rel="noopener noreferrer" title="twitter"
+                    aria-label="share Features on twitter" href="https://twitter.com/intent/tweet/?text=Features&amp;url=https://kylewiseman.com/pages/resume.html">
+                    <i class="fab fa-twitter fa-2x" aria-hidden="true"></i>
+                </a>
+            </li>
+        </ul>
+        <ul>
+            <li class="bg-gray-900 p-1 text-white rounded-md">
+                <a target="_blank" rel="noopener noreferrer" title="linkedin"
+                    aria-label="share Features on linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://kylewiseman.com/pages/resume.html">
+                    <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i>
+                </a>
+            </li>
+        </ul>
+        <ul>
+            <li class="bg-gray-900 p-1 text-white rounded-md">
+                <a target="_blank" rel="noopener noreferrer" title="reddit"
+                    aria-label="share Features on reddit" href="https://reddit.com/submit?url=https://kylewiseman.com/pages/resume.html">
+                    <i class="fab fa-reddit fa-2x" aria-hidden="true"></i>
+                </a>
+            </li>
+        </ul>
+        <ul>
+            <li class="bg-gray-900 p-1 text-white rounded-md">
+                <a target="_blank" rel="noopener noreferrer" title="facebook"
+                    aria-label="share Features on facebook" href="https://facebook.com/sharer/sharer.php?u=https://kylewiseman.com/pages/resume.html">
+                    <i class="fab fa-facebook fa-2x" aria-hidden="true"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+    <div>
+    </div>
+</main>
+
+    </div>
+    <footer class="flex w-full text-xs justify-center mt-10 mb-6 text-zinc-600 dark:text-zinc-400">
+        <div class="px-4">
+            <span>©2023&nbsp;&#8226;&nbsp;</span>Powered by
+            <a class="underline" href="https://getpelican.com/">Pelican</a>&nbsp;&
+            <a class="underline" href="https://github.com/aleylara/Papyrus">Papyrus</a>
+        </div>
+    </footer>
+
+
+    <script>
+        let themeToggleDarkIcon = document.getElementById('theme-toggle-dark-icon');
+        let themeToggleLightIcon = document.getElementById('theme-toggle-light-icon');
+        if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia(
+                '(prefers-color-scheme: dark)').matches)) {
+            themeToggleLightIcon.classList.remove('hidden');
+        } else {
+            themeToggleDarkIcon.classList.remove('hidden');
+        }
+        let themeToggleBtn = document.getElementById('theme-toggle');
+        themeToggleBtn.addEventListener('click', function () {
+            themeToggleDarkIcon.classList.toggle('hidden');
+            themeToggleLightIcon.classList.toggle('hidden');
+            if (localStorage.getItem('color-theme')) {
+                if (localStorage.getItem('color-theme') === 'light') {
+                    document.documentElement.classList.add('dark');
+                    localStorage.setItem('color-theme', 'dark');
+                } else {
+                    document.documentElement.classList.remove('dark');
+                    localStorage.setItem('color-theme', 'light');
+                }
+            } else {
+                if (document.documentElement.classList.contains('dark')) {
+                    document.documentElement.classList.remove('dark');
+                    localStorage.setItem('color-theme', 'light');
+                } else {
+                    document.documentElement.classList.add('dark');
+                    localStorage.setItem('color-theme', 'dark');
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>
