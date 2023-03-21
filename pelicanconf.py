@@ -20,7 +20,7 @@ PATH = 'content'
 THEME = 'pelican-themes/Papyrus'
 THEME_STATIC_PATHS = ['static']
 PLUGIN_PATHS = ['pelican-plugins']
-PLUGINS = ['readtime', 'search', 'neighbors', 'pelican-toc']
+PLUGINS = ['readtime', 'neighbors', 'pelican-toc']
 STATIC_PATHS = [
     'images',
     'images/favicon.ico',
