@@ -1,0 +1,6 @@
+tap "bitponyllc/tap"
+tap "homebrew/bundle"
+tap "stork-search/stork-tap"
+brew "gcc"
+brew "bitponyllc/tap/huekeys"
+brew "stork-search/stork-tap/stork"
