@@ -1,2 +1,2 @@
 [toolchain]
-channel = "stable-1.25.2"
+channel = "stable-x86_64-unknown-linux-gnu"

@@ -3,4 +3,3 @@ pelican==4.8.0
 pelican-neighbors==1.2.0
 pelican-readtime==0.2.0
 pelican-search==1.0.2
-stork-search==0.1.0
