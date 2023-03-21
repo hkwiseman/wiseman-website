@@ -11,7 +11,7 @@ SITEURL = 'https://kylewiseman.com'
 RELATIVE_URLS = True
 
 DELETE_OUTPUT_DIRECTORY = True
-THEME = "~/Development/personal-website/wiseman-website/pelican-themes/Papyrus"
+THEME = os.curdir + "/pelican-themes/Papyrus"
 
 # Following items are often useful when publishing
 
