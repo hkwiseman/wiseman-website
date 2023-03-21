@@ -20,7 +20,7 @@ PATH = 'content'
 THEME = 'pelican-themes/Papyrus'
 THEME_STATIC_PATHS = ['static']
 PLUGIN_PATHS = ['pelican-plugins']
-PLUGINS = ['readtime', 'neighbors', 'pelican-toc']
+PLUGINS = ['readtime', 'neighbors', 'pelican-toc', 'search']
 STATIC_PATHS = [
     'images',
     'images/favicon.ico',
@@ -31,7 +31,7 @@ EXTRA_PATH_METADATA = {
     'images/favicon.ico': {'path': 'favicon.ico'},
     }
 DISPLAY_PAGES_ON_MENU = True
-DIRECT_TEMPLATES = (('index', 'search',))
+DIRECT_TEMPLATES = (('index', 'search', 'analytics'))
 PAGINATED_TEMPLATES = {'index':None}
 
 # Site search plugin
