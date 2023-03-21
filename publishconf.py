@@ -11,6 +11,10 @@ SITEURL = 'https://kylewiseman.com'
 RELATIVE_URLS = True
 
 DELETE_OUTPUT_DIRECTORY = True
+PLUGIN_PATHS = ['pelican-plugins']
+SEARCH_MODE = "output"
+SEARCH_HTML_SELECTOR = "main"
+PLUGINS = ['readtime', 'search', 'neighbors', 'pelican-toc']
 THEME = os.curdir + "/pelican-themes/Papyrus"
 
 # Following items are often useful when publishing
