@@ -1,0 +1,3 @@
+[submodule "pelican-toc"]
+	path = pelican-toc
+	url = https://github.com/ingwinlu/pelican-toc.git
